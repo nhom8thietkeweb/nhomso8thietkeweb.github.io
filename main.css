@@ -1,0 +1,473 @@
+body{
+    background-size: cover;
+    background-position-y: -80px;
+    font-size: 16px;
+}
+
+body{
+    background-image: url(bglogoo2.png);
+}
+
+/* Line 1 */
+#hr1 {
+position: absolute;
+width: 1345px;
+height: 0px;
+left: 54px;
+top: 101px;
+
+border: 1px solid #000000;
+}
+
+
+.container{
+    /* thanh lựa chọn */
+    position: absolute;
+    width: 1440px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+
+
+}
+li{
+    /* TEAM8 */
+
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    left: calc(50% - 176px/2 - 486px);
+    top: calc(50% - 48px/2 + 14.5px);
+
+    list-style: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo a img {
+    /* logoo 1 */
+
+    position: absolute;
+    width: 91px;
+    height: 59px;
+    left: 51px;
+    top: 33px;
+    background: url(logoo.png);
+
+}
+
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: bolder
+}
+
+ul {
+    list-style-type: none;
+}
+
+#l1 > a {
+
+    position: absolute;
+    width: 130px;
+    height: 73px;
+    left: 683px;
+    top: 3px;
+
+list-style: none;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+
+#l2 > a {
+/* Lập ngân sách */
+
+position: absolute;
+    width: 130px;
+    height: 72px;
+    left: 803px;
+    top: 3px;
+list-style: none;
+text-decoration: none;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+
+#l3 > a {
+    /* Mục tiêu tài chính */
+
+position: absolute;
+width: 100px;
+    height: 71px;
+    left: 945px;
+    top: 3px;
+list-style: none;
+text-decoration: none;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+    
+#l4 > a {
+/* Báo cáo tài chính */
+
+position: absolute;
+width: 100px;
+    height: 70px;
+    left: 1056px;
+    top: 3px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+#l5 > a {
+    /* Thiết lập mục tiêu tài chính */
+
+    position: absolute;
+    text-align: center;
+    width: 196px;
+    height: 67px;
+    left: 553px;
+    top: 839px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+#l6 > a {
+    /* Thiết lập mục tiêu tài chính */
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    left: 777px;
+    top: 842px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    text-decoration: none;
+    text-align: center;
+
+    color: #000000;
+}
+
+#l7 > a {
+    /* Báo cáo tài chính */
+
+    position: absolute;
+    width: 192px;
+    height: 60px;
+    left: 1066px;
+    top: 840px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    
+
+    color: #000000;
+
+
+}
+#logo img {
+    /* logoo 1 */
+    position: absolute;
+    width: 91px;
+    height: 59px;
+    left: 51px;
+    top: 33px;
+    background: url(logoo.png);
+}
+
+
+.circle a img {
+    position: absolute;
+    width: 58px;
+    height: 54px;
+    left: 1312px;
+    top: 47px;
+
+    background: #D9D9D9;
+
+}
+
+
+
+#wrapper2{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(136, 170, 164, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #000000;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    color: #000000;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #000000;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #000000;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+ 
+.form-submit{
+    background: transparent;
+    border: 1px solid #000000;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid #000000;
+}
+
+.btn1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 166px;
+    height: 34px;
+    left: 123px;
+    top: 100px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+.name {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 142px;
+    height: 34px;
+    left: 730px;
+
+    top: 227px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+.ten {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 236px;
+    height: 34px;
+    left: 900px;
+    top: 227px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+.birthday  {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 406px;
+    height: 34px;
+    left: 733px;
+    top: 281px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+.email {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 411px;
+    height: 31px;
+    left: 730px;
+    top: 330px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+.sdt {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 411px;
+    height: 31px;
+    left: 730px;
+    top: 381px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+
+.password {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 411px;
+    height: 31px;
+    left: 730px;
+    top: 434px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+.repassword {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 411px;
+    height: 31px;
+    left: 730px;
+    top: 487px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+.btn {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 166px;
+    height: 34px;
+    left: 957px;
+    top: 549px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+}
+
+#checkbox {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 11px;
+    height: 11px;
+    left: 761px;
+    top: 526px;
+    text-align: flex;
+}
+
+h1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 167px;
+    left: 245px;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 291px;
+    left: 253px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h4 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 254px;
+    left: 250px;
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.checkbox {
+    top: 1000px;
+    left: 1000px;
+    position: absolute;
+}
+
+h3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 516px;
+    left: 782px;
+    font-size: 12px;
+    width: 170px;
+    height: 100px;
+    color: #000000;
+}
+
+

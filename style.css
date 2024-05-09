@@ -1,0 +1,656 @@
+body{
+    
+    background-image: url(background-image.png);
+}
+
+/* Line 1 */
+#hr1 {
+position: absolute;
+width: 100%;
+height: 0px;
+left: 54px;
+top: 101px;
+
+border: 1px solid #000000;
+transform: rotate(0.13deg);
+}
+
+
+.container{
+    /* thanh lựa chọn */
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    left: 0px;
+    top: 0px}
+
+li{
+    /* TEAM8 */
+
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    left: 144px;
+    top: 46px;
+    list-style: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img {
+    /* logoo 1 */
+    position: absolute;
+    width: 91px;
+    height: 59px;
+    left: 51px;
+    top: 33px;
+    background: url(logoo.png);
+}
+
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: bolder
+}
+
+ul {
+    list-style-type: none;
+}
+
+#l1 > a {
+
+    position: absolute;
+    width: 130px;
+    height: 73px;
+    left: 683px;
+    top: 3px;
+
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+#l2 > a {
+/* Lập ngân sách */
+
+position: absolute;
+    width: 130px;
+    height: 72px;
+    left: 803px;
+    top: 3px;
+list-style: none;
+text-decoration: none;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+
+#l3 > a {
+    /* Mục tiêu tài chính */
+
+position: absolute;
+width: 100px;
+    height: 71px;
+    left: 945px;
+    top: 3px;
+list-style: none;
+text-decoration: none;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+    
+#l4 > a {
+/* Báo cáo tài chính */
+
+position: absolute;
+width: 100px;
+    height: 70px;
+    left: 1056px;
+    top: 3px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+#l5 > a {
+    /* Thiết lập mục tiêu tài chính */
+
+    position: absolute;
+    text-align: center;
+    width: 196px;
+    height: 67px;
+    left: 553px;
+    top: 839px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+#l6 > a {
+    /* Thiết lập mục tiêu tài chính */
+    position: absolute;
+    width: 256px;
+    height: 60px;
+    left: 777px;
+    top: 842px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    text-decoration: none;
+    text-align: center;
+
+    color: #000000;
+}
+
+#l7 > a {
+    /* Báo cáo tài chính */
+
+    position: absolute;
+    width: 192px;
+    height: 60px;
+    left: 1066px;
+    top: 840px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    
+
+    color: #000000;
+
+
+}
+
+/* 
+#main-menu .sub-menu li:hover>a{
+    color: rgb(218, 46, 20);
+}
+ #main-menu .sub-menu>li.has-child::after{ 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    color: rgb(132, 131, 131);
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    padding: 8px 0px;
+} */
+/* #main-menu .sub-menu>li.has-child:hover::after{
+    color: rgb(192,38,17);
+} */
+
+.circle img {
+    position: absolute;
+    width: 58px;
+    height: 54px;
+    left: 1312px;
+    top: 47px;
+
+    background: #D9D9D9;
+
+}
+
+
+.anh1 img {
+    
+    /* Rectangle 2 */  
+    position: absolute;
+    width: 648px;
+    height: 455px;
+    left: 735px;
+    top: 155px;
+    background: url(anh1.jpg);
+    border-radius: 41px;
+}
+
+.anh2 img {
+    /* anh2 1 */
+    position: absolute;
+    width: 561px;
+    height: 367px;
+    left: 106px;
+    top: 463px;
+
+    background: url(anh2.jpg);
+    border-radius: 45px;
+}
+
+.slogan > h1 {
+
+/* Thiết lập mục tiêu Nâng tầm cuộc sống */
+position: absolute;
+    width: 647px;
+    height: 112px;
+    left: 54px;
+    top: 177px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 75px;
+    text-align: center;
+
+color: #000000;
+
+
+}
+
+.slogan > h2 {
+/* Tiết kiệm - Đầu tư - Vững tương lai! */ 
+    position: absolute;
+    width: 534px;
+    height: 39px;
+    left: 129px;
+    top: 351px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #000000;
+}
+
+.anh3 img {
+/* stonk 1 */
+
+    position: absolute;
+    width: 570px;
+    height: 386px;
+    left: 752px;
+    top: 1055px;
+    border-radius: 30px;
+
+}
+
+.anh4 img {
+    /* coinpepe 1 */
+
+position: absolute;
+    width: 570px;
+    height: 375px;
+    left: 111px;
+    top: 1484px;
+background: url(anhnhaxe.png);
+border-radius: 40px;
+}
+
+.anh5 img {
+    position: absolute;
+    width: 149px;
+    height: 136px;
+    left: 742px;
+    top: 720px;
+    
+    background: url(2.png);
+    border-radius: 18px;
+}
+
+.anh6 img {
+    /* 2 2 */
+
+    position: absolute;
+    width: 149px;
+    height: 136px;
+    left: 993px;
+    top: 722px;
+    background: url(3.png);
+    border-radius: 10px;
+
+}
+
+.anh7 img {
+    /* 2 3 */
+
+    position: absolute;
+
+    width: 149px;
+    height: 136px;
+    left: 1240px;
+    top: 728px;
+    background: url(4.png);
+    border-radius: 10px;
+}
+
+.anh8 img {
+    /* stonk 2 */
+    position: absolute;
+    width: 596px;
+    height: 385px;
+    left: 774px;
+    top: 1909px;
+background: url(anh3.png);
+border-radius: 40px;
+}
+
+.anh9 img {
+    /* coinpepe 2 */
+
+position: absolute;
+width: 596px;
+    height: 385px;
+    left: 127px;
+    top: 2335px;
+
+background: url(stonk.jpg);
+border-radius: 30px;
+}
+
+#hr2 {
+/* Line 2 */
+
+position: absolute;
+width: 1169px;
+height: 0px;
+left: 153px;
+top: 1004px;
+
+border: 1px solid #000000;}
+
+.btn {
+
+    position: absolute;
+    width: 339px;
+    height: 67px;
+    left: 196px;
+    top: 887px;
+
+    cursor:pointer;
+    background: #D9D9D9;
+    border-radius: 41px;
+
+}
+
+.Tlns1  {
+    /* Thiết lập ngân sách */
+
+    position: absolute;
+    width: 438px;
+    height: 63px;
+    left: 180px;
+    top: 1100px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.Tlns2   {
+/* Thiết lập ngân sách là quá trình lập kế hoạch cho thu nhập và chi tiêu của bạn trong một khoảng thời gian nhất định. Nó giúp bạn quản lý tài chính hiệu quả hơn, đạt được mục tiêu tài chính và tránh rơi vào tình trạng nợ nần. */
+
+    position: absolute;
+    width: 561px;
+    height: 228px;
+    left: 160px;
+    top: 1160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+.Mttc1  {
+    /* Mục têu tài chính */
+
+position: absolute;
+width: 363px;
+height: 48px;
+left: 802px;
+top: 1538px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 48px;
+color: #000000;
+}
+
+.Mttc2  {
+    /* Mục tiêu tài chính là những mục tiêu cụ thể mà bạn muốn đạt được trong một khoảng thời gian nhất định liên quan đến tiền bạc và tài sản của bạn. Mục tiêu tài chính có thể ngắn hạn, trung hạn hoặc dài hạn. */
+
+    width: 550px;
+    height: 92px;
+    left: 768px;
+    top: 1594px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.Bctc1  {
+    /* Báo cáo tài chính */
+
+    position: absolute;
+    width: 345px;
+    height: 48px;
+    left: 211px;
+    top: 1981px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.Bctc2  {
+/* Báo cáo tài chính là tập hợp các bảng biểu thể hiện tình hình tài chính của một doanh nghiệp trong một khoảng thời gian nhất định. */
+
+position: absolute;
+width: 545px;
+height: 118px;
+left: 164px;
+top: 2042px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+
+.Dsgd1 {
+    /* Danh sách giao dịch */
+    position: absolute;
+    width: 419px;
+    height: 48px;
+    left: 870px;
+    top: 2401px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.Dsgd2 {
+/* Danh sách giao dịch là bản ghi chép lại tất cả các hoạt động mua bán, chuyển khoản, thanh toán,... đã thực hiện trong một khoảng thời gian nhất định. */
+
+    position: absolute;
+    width: 601px;
+    height: 161px;
+    left: 821px;
+    top: 2462px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+
+.btn1 { 
+    position: absolute;
+    width: 211px;
+    height: 51px;
+    left: 474px;
+    top: 1355px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+ }
+
+ .btn2 { 
+    position: absolute;
+    width: 211px;
+    height: 51px;
+    left: 1124px;
+    top: 1808px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+ }
+
+.btn3 { 
+    position: absolute;
+    width: 211px;
+    height: 51px;
+    left: 477px;
+    top: 2194px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+ }
+
+.btn4 a { 
+    /* Rectangle 6 */
+    position: absolute;
+    width: 211px;
+    height: 51px;
+    left: 1124px;
+    top: 2653px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    cursor:pointer;
+
+ }
+
+ #footer {
+    width: 100%;
+    background: rgba(165, 210, 243, 0.79);
+    height: 346px;
+    margin-top: 2820px;
+    padding: 0px 63px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#footer .box {
+    width: 250px;
+    color:#0f0e0e;
+    font-size: x-large;
+}
+
+#footer .box .quick-menu {
+    margin-top:40px;
+
+}
+
+
+#footer .box .quick-menu .item{
+    margin-bottom:12px;
+
+}
+#footer .box .quick-menu ,.item a{
+    color:#0f0e0e;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+
+#footer .box form button {
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top:29px;
+    color:#fff;
+}
+
+.logo {
+    width: 50px;
+    height: 30px;
+
+}
+

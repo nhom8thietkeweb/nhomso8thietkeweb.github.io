@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <title>Transaction</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 80%;
+            margin: 50px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <hr id="hr1"/>
+    <div class="container">
+    <div class="wrapper">
+        <nav class="container">
+            <div id="logo">
+                    <a href="INDEX.html"><img src="logoo.png" alt="index.html"></a>
+                    <li>TEAM8 </li>
+            </div>
+            <div class="circle"><a href="dangki.html"><img src="circle-human.png" alt="circle-human"></div>
+            <ul class="main-menu">
+                <li id="l1"><a href="dsgd.html">Danh sách giao dịch</a></li>
+                <li id="l2"><a href="lapngansach.html">Lập ngân sách</a></li>         
+                <li id="l3"><a href="mttc.html">Mục tiêu tài chính</a></li>
+                <li id="l4"><a href="bctc.html">Báo cáo tài chính</a></li>
+        </nav>\
+    </div>
+    </div>
+
+    <h1 style="text-align: center;">DANH SÁCH GIAO DỊCH</h1>
+    <style>
+        h1 {
+            margin-top: 150px;
+        }
+    </style>
+    <h2 style="text-align: center;">TIẾT KIỆM - ĐẦU TƯ - VỮNG TƯƠNG LAI</h2>
+    <table align="center" style="margin-top: 50px;">
+        <thead>
+            <tr>
+                <th>Thời gian</th>
+                <th>Danh mục</th>
+                <th>Số tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date"></td>
+                <td><input type="text" class="form-input" placeholder="Tên danh mục"></td>
+                <td><input type="number" id="input1"></td>
+                <td><span id="sum"></span></td>
+            </tr>
+            <tr>
+                <td><input type="date"></td>
+                <td><input type="text" class="form-input" placeholder="Tên danh mục"></td>
+                <td><input type="number" id="input1"></td>
+                <td><span id="sum"></span></td>
+            </tr>
+            <tr>
+<td><input type="date"></td>
+                <td><input type="text" class="form-input" placeholder="Tên danh mục"></td>
+                <td><input type="number" id="input1"></td>
+                <td><span id="sum"></span></td>
+            </tr>
+            <tr>
+                <td><input type="date"></td>
+                <td>Tổng</td>
+                <td><input type="number" id="input1"></td>
+                <td><span id="sum"></span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        // Lắng nghe sự kiện khi có thay đổi trong input và tính tổng
+        document.getElementById("input1").addEventListener("input", calculateSum);
+        document.getElementById("input2").addEventListener("input", calculateSum);
+
+        function calculateSum() {
+            var num1 = parseFloat(document.getElementById("input1").value);
+            var num2 = parseFloat(document.getElementById("input2").value);
+            var sum = num1 + num2;
+            document.getElementById("sum").textContent = sum;
+        }
+    </script>
+</body>
+</html>
